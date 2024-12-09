@@ -1,0 +1,62 @@
+/* styles/logout.css */
+
+.logout-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Remplit la hauteur de la vue */
+  }
+  
+  .logout-button,
+  .cancel-button {
+    padding: 12px 24px; /* Taille plus grande du bouton */
+    font-size: 18px; /* Taille du texte du bouton */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px; /* Espacement entre les boutons */
+  }
+  
+  .logout-button {
+    background-color: #007bff;
+  }
+  
+  .logout-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .logout-button:active {
+    background-color: #003d80;
+  }
+  
+  .logout-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.5);
+  }
+  
+  .cancel-button {
+    background-color: #6c757d; /* Couleur pour le bouton annuler */
+  }
+  
+  .cancel-button:hover {
+    background-color: #5a6268;
+  }
+  
+  .cancel-button:active {
+    background-color: #434847;
+  }
+  
+  .cancel-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(108, 117, 125, 0.5);
+  }
+  
+  .confirmation-text {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
